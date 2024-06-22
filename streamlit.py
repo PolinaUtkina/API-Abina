@@ -2,8 +2,8 @@ import streamlit as st
 from youtube_comment_downloader import *
 import pandas as pd	
 import matplotlib.pyplot as plt
-from model import Model
-model = Model()
+#from model import Model
+#model = Model()
 
 def download(message: str):
     comments_text = []
