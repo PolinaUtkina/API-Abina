@@ -14,6 +14,8 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 from sklearn.model_selection import train_test_split
+import nltk
+nltk.download('all')
 from nltk import (sent_tokenize as splitter, wordpunct_tokenize as tokenizer)
 from collections import Counter
 
